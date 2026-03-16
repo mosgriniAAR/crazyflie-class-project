@@ -1,0 +1,31 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/bitcraze/crazyflie/protos/Crazyflie.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+
+WorldInfo {
+  info [
+    "Bitcraze's Crazyflie drone."
+    "This simulation allows you to pilot the drone with your keyboard."
+  ]
+  title "Crazyflie"
+}
+Viewpoint {
+  orientation -0.10311089632172073 0.641740519713268 0.7599587149430397 0.6949228976889259
+  position -0.7574485349810365 -1.009830233298154 1.7630452545905697
+  follow "Crazyflie"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+Crazyflie {
+  hidden linearVelocity_0 -8.224133166959224e-08 3.675383978062391e-08 1.7052903963174935e-08
+  hidden angularVelocity_0 1.6616997281222978e-07 9.787670829547718e-07 -9.999332527862531e-08
+  translation 0.6505923218065714 -0.11072763868213224 0.9999999792181168
+  rotation -2.690463389924423e-07 8.473649822799934e-07 -0.9999999999996048 0.08489547563008383
+}
